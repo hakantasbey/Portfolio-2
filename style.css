@@ -1,137 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #131E25;
+body {
+  background-color: #131e25;
 }
 
-header{
-    font-family: 'Bungee Shade', cursive;;
-    font-size: 1.7rem;
-    color: white;
-    text-align: center;
+header {
+  font-family: "Bungee Shade", cursive;
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
 }
 
-nav{
-    text-align: center;
-    position: sticky;
-    top: 1rem;
+nav {
+  text-align: center;
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
 }
 
-nav a{
-    color: white;
-    background-color: #D2B48C;
-    text-decoration: none;
-    padding: .7rem 1.5rem;
-    border-radius: 10px;
-    margin-right: .7rem;
-    font-weight: 900;
+nav a {
+  color: white;
+  background-color: #d2b48c;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  margin-right: 0.7rem;
+  font-weight: 900;
 }
 
-nav a:hover{
-    opacity: 0.7;
-    color: orangered;
+nav a:hover {
+  opacity: 0.7;
+  color: orangered;
 }
 
-#about p{
-    text-align: center;
-    font-family: 'Rampart One', cursive;
-    color: #D2B48C;
-    font-size: 2.7rem;
-    margin: 10rem 5rem;
+#about p {
+  text-align: center;
+  font-family: "Rampart One", cursive;
+  color: #d2b48c;
+  font-size: 2.7rem;
+  margin: 10rem 5rem;
 }
 
-#projects h2, #contact h2{
-    color: white;
-    border-bottom: 2px solid white;
-    margin: auto;
-    margin-bottom: 2rem;
-    width: 10.5rem;
-    font-size: 2rem;
-    margin-top: 2rem;
+#projects h2,
+#contact h2 {
+  color: white;
+  border-bottom: 2px solid white;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 10.5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
-#projects{
-    text-align: center;
+#projects {
+  text-align: center;
 }
 
-#projects img{
-    width: 15rem;
-    height: 28rem;
-    border-radius: 10px;
-    margin-right: .7rem;
+#projects img {
+  width: 15rem;
+  height: 28rem;
+  border-radius: 10px;
+  margin-right: 0.7rem;
 }
 
-#projects img:hover{
-    opacity: .7;
+#projects img:hover {
+  opacity: 0.7;
 }
 
-#contact{
-    text-align: center;
+#contact {
+  text-align: center;
 }
 
-#contact a{
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 900;
-    margin-right: .7rem ;
-    text-decoration: none;
+#contact a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-right: 0.7rem;
+  text-decoration: none;
 }
 
-#contact i{
-    padding-right: 0.2rem;
+#contact i {
+  padding-right: 0.2rem;
 }
 
-form h3{
-    color: white;
-    text-align: center;
-    margin-bottom: .5rem;
+form h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
-form{
-    text-align: center;
-    margin: 1.5rem;
+form {
+  text-align: center;
+  margin: 1.5rem;
 }
 
-.box{
-    width: 50%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    background-color: #131E25;
-    color: #D2B48C;
-    padding: .5rem 3.5rem;
-    border: 2px solid #D2B48C;
-    text-align: center;
-    font-size: 1.2rem;
-    outline: none;
+.box {
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: #131e25;
+  color: #d2b48c;
+  padding: 0.5rem 3.5rem;
+  border: 2px solid #d2b48c;
+  text-align: center;
+  font-size: 1.2rem;
+  outline: none;
 }
 
-.btn{
-    background-color: #D2B48C;
-    color: white;
-    font-weight: 900;
-    font-size: 1.5rem;
-    opacity: 0.7;
+.btn {
+  background-color: #d2b48c;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  opacity: 0.7;
 }
 
-.btn i{
-    color: #D2B48C;
+.btn i {
+  color: #d2b48c;
 }
 
-.btn:hover{
-    color: orangered;
-    cursor: pointer;
-    height: 4rem;
-    opacity: 1;
+.btn:hover {
+  color: orangered;
+  cursor: pointer;
+  height: 4rem;
+  opacity: 1;
 }
 
-.btn i:hover{
-    color: orangered;
+.btn i:hover {
+  color: orangered;
 }
 
-.btn:hover i{
-    color: orangered;
+.btn:hover i {
+  color: orangered;
+}
+
+.top {
+  background-color: #d2b48c;
+  color: white;
+  padding: 0.8rem 1.3rem;
+  text-decoration: none;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.top:hover {
+  background-color: orangered;
 }
